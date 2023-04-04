@@ -1,4 +1,16 @@
 /* TODO: styling for login div container */
+form {
+    border: 3px solid rgb(130, 130, 130);
+}
 #form-ul {
     list-style: none;
+}
+#form-ul li{
+    padding: 2%;
+}
+.container {
+    padding: 16px;
+    width: 35%;
+    text-align: center;
+    margin: auto;
 }
