@@ -1,9 +1,21 @@
-/* TODO: styling for login div container */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-form {
-    border: 3px solid rgb(130, 130, 130);
+header {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+a:visited {
+    color: inherit;
+}
+a:hover {
+    /* TODO: add window on hover for password requirements */
 }
 input {
     width: 50%;
@@ -14,9 +26,11 @@ input {
 #form-ul li{
     padding: 2%;
 }
-.container {
+.container{
     padding: 16px;
     width: 35%;
-    text-align: center;
+    text-align: left;
     margin: auto;
+    border: 3px solid rgba(175, 216, 241, 0.744);
+    border-radius: 20px;
 }
