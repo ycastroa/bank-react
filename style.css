@@ -1,10 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
     text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: auto;
+    width: 35%;
+    padding: 1.5em;
 }
 a {
     text-decoration: none;
@@ -16,6 +23,9 @@ a:visited {
 }
 input {
     width: 50%;
+}
+form {
+    margin: 1em;
 }
 #form-ul {
     list-style: none;
