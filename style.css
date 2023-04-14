@@ -14,9 +14,6 @@ a {
 a:visited {
     color: inherit;
 }
-a:hover {
-    /* TODO: add window on hover for password requirements */
-}
 input {
     width: 50%;
 }
