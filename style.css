@@ -12,6 +12,9 @@ header {
     margin: auto;
     width: 35%;
     padding: 1.5em;
+    border: 3px solid rgba(175, 216, 241, 0.744);
+    border-bottom-width: 1.5px;
+    border-radius: 20px 20px 0 0;
 }
 a {
     text-decoration: none;
@@ -39,5 +42,6 @@ form {
     text-align: left;
     margin: auto;
     border: 3px solid rgba(175, 216, 241, 0.744);
-    border-radius: 20px;
+    border-top-width: 1.5px;
+    border-radius: 0 0 20px 20px;
 }
